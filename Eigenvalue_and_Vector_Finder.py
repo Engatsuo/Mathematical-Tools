@@ -2,7 +2,7 @@ import numpy as np
 import scipy.linalg as lg
 
 def EigenValueVector(Matrix):
-    # Using the Eig function out of scipy.linalg to determine the eigenvalues and vectors
+    # Using the Eig function out of scipy.linalg to determine the eigenvalues and eigenvectors
     Value, Vector = lg.eig(Matrix)
     print('The Eugenvalues: \n',Value)
     print('The EugenVectors: \n', Vector)
